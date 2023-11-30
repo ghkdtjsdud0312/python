@@ -22,3 +22,4 @@ schedule.every().day.at("09:44").do(job)
 while True:
     schedule.run_pending()
     time.sleep(1) # sleep을 1초마다 돌아서 돈다.(sleep 꼭 넣어줘야 함, 최소 1/1000은 줘야 함)
+
