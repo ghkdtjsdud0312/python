@@ -1,6 +1,8 @@
 import requests
 import json
 
+from 크롤링.다음영화 import headers
+
 #JSON 데이터 생성
 data = {
     "id": "곰돌이사육사",
